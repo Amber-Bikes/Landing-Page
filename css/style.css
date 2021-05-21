@@ -1,0 +1,167 @@
+/* Reset */
+body {
+    font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, 
+      '.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #24292e;
+    letter-spacing: 0.4px;
+    -webkit-font-smoothing: antialiased;
+    color: #24292e;
+  }
+  a {
+    color: #24292e;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #222222 !important; /* global override */
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Catamaran', -apple-system, BlinkMacSystemFont, 
+      '.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+  .nowrap {
+    white-space: nowrap;
+  }
+  
+  /* Navigation */
+  .navbar {
+    padding: 2rem 0 0 0;
+  }
+  @media (min-width: 550px) { .navbar-left {
+    float: left;
+  }}
+  .navbar-left a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-left img {
+    margin-right: 0.5rem;
+  }
+  .navbar-left h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 3px 0 0 0;
+    letter-spacing: 1.3px;
+  }
+  .navbar-left .logo {
+    height: 100%;
+  }
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+  }
+  @media (min-width: 550px) { .navbar-right {
+    float: right;
+  }}
+  .navbar-right a {
+    flex: 1;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #e3ebf7;
+    letter-spacing: 1px;
+  }
+  .navbar-right a:hover {
+    opacity: 0.5;
+  }
+  @media (min-width: 550px) { .navbar-right a {
+    margin: 0 0 0 1.5em;
+  }}
+  .nav-item {
+    flex: 1;
+    text-align: center;
+  }
+  .navbar a {
+    color: #24292e;
+    height: 4rem;
+  }
+  
+  /* Hero */
+  .safe-area {
+    padding-left: max(12px, env(safe-area-inset-left));
+    padding-right: max(12px, env(safe-area-inset-right));
+  }
+  .hero-container a {
+    color: #ffffff;
+  }
+  .hero-container a:hover {
+    color: #ffffff !important;
+  }
+  .hero-backing-container {
+    color: #ffffff;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: 
+      http://colorzilla.com/gradient-editor/#2d65cc+0,58afde+100 */
+    background: #2d65cc; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #2d65cc 0%, #58afde 100%); 
+      /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #2d65cc 0%,#58afde 100%); 
+      /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #2d65cc 0%,#58afde 100%); /* W3C, IE10+,
+      FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d65cc', 
+      endColorstr='#58afde',GradientType=1 ); /* IE6-9 fallback on horizontal 
+      gradient */
+  }
+  .hero-container {
+    background-image: url(../images/wave.svg);
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .screenshots {
+    text-align: center;
+  }
+  .screenshots img {
+    max-height: 850px;
+    margin-bottom: -20%;
+    max-width: 100%;
+  }
+  @media (min-width: 550px) { .screenshots img {
+    margin-right: -100px; /* adjust for image shadow */
+    max-width: 160%; /* feels about right */
+  }}
+  .hero-lead {
+    margin-top: 10%;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+  }
+  @media (min-width: 550px) { .hero-lead {
+    margin-top: 21%;
+    margin-bottom: 30%;
+  }}
+  .hero-lead h1 {
+    letter-spacing: 1.3px;
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  @media (min-width: 550px) { .hero-lead h1 {
+    text-align: left;
+  }}
+  .hero-lead p {
+    color: #e3ebf7;
+  }
+  .hero-lead strong {
+    color: #ffffff;
+  }
+  .app-store-badge {
+    text-align: center;
+  }
+  @media (min-width: 550px) { .app-store-badge {
+    margin-top: 5rem;
+    text-align: left;
+  }}
+  .app-store-badge img {
+    width: 200px;
+  }
+  .hero-lead .hero-free {
+    font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, 
+      '.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 200;
+  }
+  
+  
