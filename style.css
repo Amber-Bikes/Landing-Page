@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
+
 
 .navbarr {
    
@@ -20,6 +23,16 @@ padding-right: 20px;
         }
 }
 
+.upbig{
+    margin-top: 4vw;
+    height: 6vw;
+}
+
+.upsml{
+    position: absolute;
+    height: 3vw;
+    margin-top: 11vw;
+}
 
 
 
@@ -37,18 +50,15 @@ li a:hover{
     background-color: white !important;
 }
 
-.wrap {
-    max-width: 1000px;
-    margin: 0 20px;
-    padding: 0 20px;
-}
+
 
 
 .header {
-    padding-top: 10vw;
-    padding-left: 20vw;
+    padding-top: 5vw;
+    padding-left: 18vw;
     padding-right: 8rem;
     padding-bottom: 13vw;
+    
 }
 
 .header-logo{
@@ -75,10 +85,16 @@ li a:hover{
   
 }
 
+
+
 @media(max-width:806px){
+
+    .header{
+        width: 200px;
+    }
     .header-img img{
         height: 50vw;
-        
+       
     }
     .header-text{
         font-size: 4vw;
@@ -96,15 +112,12 @@ li a:hover{
     }
 }
 
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
+
 
 
 .sec {
-    padding: 4vw 0 15vw 5vw;
+    margin-top: 40px;
+    padding: 0vw 0 5vw 3vw;
     position: relative;
     color: #fff;
 }
@@ -118,7 +131,9 @@ li a:hover{
     left: 0;
     transform: skewY(8deg);
     z-index: -1;
-    background: rgb(65, 16, 187);
+    
+    background: rgba(17, 74, 149, 1);
+    ;
 }
 
 .sec-first::before {
@@ -128,3 +143,351 @@ li a:hover{
 .wrap h1{
     font-size: 5vw;
 }
+
+.design{
+    margin-top: 100px;
+    width: 90%;
+}
+
+.des-head h2{
+    
+    padding-top: 120%;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 3vw;
+
+
+color: #000000;
+}
+
+.bike{
+    height: 40vw;
+}
+
+.des-text{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 2vw;
+line-height: 2vw;
+width: 40vw;
+padding-left: 9vw;
+padding-top: 1.2vw;
+
+visibility: hidden;
+-webkit-transition: visibility 0s, opacity 0.5s linear; 
+transition: visibility 0s, opacity 0.5s linear;
+}
+
+.design-img{
+   padding-left: 20px;
+   height: 6vw;
+}
+
+.des-con{
+    padding-top: 40px;
+}
+
+.mobile{
+    display: none ;
+    margin-top: 60px;
+}
+
+.des-head-mob h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 5vw;
+    
+    margin-top: 30px;
+    margin-left: 38%;
+    color: #000000;
+ }
+
+@media(min-width: 779px){
+    .pc{
+        display: block;
+    }
+
+    .mobile{
+        display: none;
+    }
+}
+
+@media(max-width: 778px) and (min-width:576px){
+    .pc{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .des-con{
+        padding-top: 0px;
+        
+    }
+
+    .features{
+        margin-left: 30%;
+        overflow-x: hidden;
+       
+    }
+
+    .design-img{
+        padding-left: 20px;
+        height: 8vw;
+     }
+
+     .bike{
+         margin-left:45%;
+         margin-top: 80px;
+     }
+
+     
+    
+}
+
+@media (max-width: 575px)
+ {
+    .pc{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+        overflow-x: hidden;
+    }
+
+   .des-con{
+       width: 100vw;
+       margin-left: 28%;
+       padding-top: 0px;
+       margin-top: 0px;
+       z-index: 2;
+       
+   }
+
+   .design-img{
+    padding-left: 20px;
+    height: 10vw;
+ }
+ 
+ .bike-img{
+    margin-left:45%;
+    padding-top: 60px;
+    width: 100vw;
+    
+}
+
+.des-head-mob{
+    width: 100vw;
+    margin-left: -30px;
+}
+
+.des-head-mob h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 7vw;
+    
+    margin-top: 30px;
+    margin-left: 38%;
+    color: #000000;
+ }
+   
+}
+
+
+
+
+.onhov:hover .des-text{
+      visibility: visible;
+}
+
+/* SLider */
+
+.slider {
+    width: 90vw;
+  }
+  
+  
+  
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0 5vw 0 10vw;
+    padding: 1rem 0;
+    list-style-type: none;
+    transform: rotate(9deg); 
+  }
+  .slick-dots li {
+    margin: 0 0.25rem;
+  }
+  .slick-dots button {
+    display: block;
+    width: 2vw;
+    height: 2vw;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: orange;
+    text-indent: -9999px;
+  }
+  .slick-dots li.slick-active button {
+    background-color: red;
+  }
+
+  .img-slider{
+      float: right;
+  }
+
+  .imagg{
+    width: 20vw !important;
+    height: 34vw !important;
+    float: right;
+    margin-right: 10px;
+    /* margin-top: -90px; */
+    z-index: 10;
+  }
+
+  @media(max-width:998px){
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin: 0 50vw ;
+        padding: 0 0;
+        list-style-type: none;
+        transform: rotate(9deg); 
+        
+      }
+
+      .wrap {
+        
+        margin-left: 1px;
+        padding-top: -5px;
+    }
+  }
+
+  .sl_eli{
+      height: 10vw;
+  }
+
+  .eli{
+      position: absolute;
+      top: 33vw;
+  }
+
+
+  .location{
+      margin-top: 20vw ;
+      
+      padding-right: 0px;
+      background: rgba(17, 74, 149, 1);
+
+  }
+
+  .map{
+      height: 40vw;
+      width: 42vw;
+      margin-top: -5vw;
+      margin-bottom: 5vw;
+  }
+
+
+  .cont{
+      margin-top: 5vw;
+     margin-left: 3vw;
+     text-align: left;
+  }
+
+
+
+  .locate-head h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+  }
+
+  .locate-content p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    
+    
+    color: #FFFFFF;
+  }
+
+  .loc-eli{
+      position: absolute;
+      margin-top: -5vw;
+      height: 10vw;
+      display: block;
+  }
+
+  .loc-eli2{
+      display: none;
+      position: relative;
+      height: 14vw;
+      width: 10vw;
+      right: 0;
+      top: 235%;
+      z-index: 5;
+  }
+
+  .foot{
+    text-align: center;
+    background-color: #1A1A1A;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+}
+
+  @media(max-width: 767px){
+      .cont{
+          margin-left: 20vw;
+      }
+
+      .locate-head h2{
+          font-size: 10vw;
+      }
+
+      .locate-content p{
+          font-size: 5vw;
+      }
+
+      .map{
+          margin-top: 1vw;
+         margin-bottom: 0;
+         width: 100vw;
+         height: auto;
+      }
+
+      .loc-eli{
+          display: none;
+      }
+
+      .loc-eli2{
+          display: block;
+          float: right;
+          margin-right: -12px;
+          margin-bottom: -20px;
+      }
+
+      .foot{
+          font-size: 5vw;
+      }
+  }
+
+
+
