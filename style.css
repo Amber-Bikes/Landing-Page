@@ -451,7 +451,32 @@ transition: visibility 0s, opacity 0.5s linear;
     font-style: normal;
     font-weight: normal;
     font-size: 2vw;
+   
+    
 }
+
+ .contact{
+     display: block;
+     margin-top: 10vw;
+     background-image: url("images/bg2.png");
+     background-size: cover;
+     height: 43vw;
+ }
+
+ .team-text{
+     margin-left: 2vw;
+ }
+
+ .team-text h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6vw;
+    
+    
+    color: #000000;
+ }
+
 
   @media(max-width: 767px){
       .cont{
@@ -490,4 +515,237 @@ transition: visibility 0s, opacity 0.5s linear;
   }
 
 
+.buttonn{
+    margin-top: 13vw;
+    margin-left: 10vw;
+    background-color: #F9773D !important;
+    border: none !important;
+}
 
+
+
+.img1{
+    height: 10vw;
+    margin-top: 5px;
+}
+
+.team-img h4{
+    padding-left: 12px;
+    font-size: 1.2vw;
+}
+
+.wh h4{
+    color: white;
+}
+
+.secr{
+    padding-top: 7vw;
+}
+
+.team-vec{
+    height: 25vw;
+}
+
+.contact-ph{
+    display: none;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    
+  
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px 20vw;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(51.0249px);
+    border-radius: 20px;
+    width: 600px;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 50px;
+    margin-left:60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #33323D;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #d87606;
+  }
+  
+  .input-box{
+    background: #F9773D;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 60px;
+    padding: 10px;
+    width: 300px;
+    color: white;
+
+  }
+
+  .input-box2{
+    background: #F9773D;
+    border: none;
+    border-radius: 4px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 60px;
+    padding: 10px;
+    width: 300px;
+    color: white;
+
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    
+    opacity: 1; /* Firefox */
+  }
+
+  .sub{
+      margin-left: 60px;
+      margin-top: 10px;
+  }
+
+  .contact-bike{
+      display: block;
+      margin-top: -200px;
+      margin-right: 20px;
+      float: right;
+      height: 200px;
+  }
+  
+
+  
+@media(max-width: 767px){
+    .contact{
+        display: none;
+    }
+
+    .contact-ph{
+        display: block;
+    }
+
+    .team-text h2{
+        margin-top: 50px;
+        font-size: 12vw;
+        margin-left: 12vw;
+    }
+
+    .team-eli{
+        float: right;
+        margin-top: 20px;
+        margin-right: -70px;
+        height: 70vw;
+    }
+
+    .team-left{
+        margin-left: 10vw;
+    }
+
+    .img1{
+        height: 25vw;
+    }
+
+    .team-img{
+        padding-top: 40px;
+    }
+
+    .team-img h4{
+        overflow-y: visible;
+        padding-top: 19vw;
+        font-size: 3vw;
+    }
+
+    .secr{
+        margin-right: 10px;
+        
+        padding-top: 80px;
+    }
+
+    .reach{
+        padding-top: 100px;
+        background-image: url("images/bg2.png");
+        background-size: cover;
+    }
+
+    .mar h4{
+        padding-left: 70px !important;
+    }
+
+    .re h2{
+        margin-left: 8vw;
+        font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+    }
+
+    .buttonn{
+        margin-bottom: 10px;
+        margin-left: 20vw;
+        
+    }
+
+    .buttonn h6{
+        font-size: 3vw;
+    }
+
+    .contact-bike{
+        display: none;
+    }
+
+    .popup{
+        width: 70%;
+    }
+
+    .popup h2{
+        font-size: 6vw;
+        margin-left: 4vw;
+    }
+
+    .input-box{
+        width: 90%;
+        margin-left: 2vw;
+    }
+    .input-box2{
+        width: 90%;
+        margin-left: 2vw;
+    }
+
+    .sub{
+        margin-left: 12vw;
+    }
+}
