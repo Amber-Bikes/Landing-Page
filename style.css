@@ -55,7 +55,7 @@ li a:hover{
 
 .header {
     padding-top: 5vw;
-    padding-left: 18vw;
+    padding-left: 8vw;
     padding-right: 8rem;
     padding-bottom: 13vw;
     
@@ -63,8 +63,9 @@ li a:hover{
 
 .header-logo{
     margin-top: 0px;
-    padding-left: 0px;
+    padding-left: 6vw;
     padding-right: 10vw;
+    height: 24vw;
 }
 
 .header-text{
