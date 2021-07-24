@@ -7,6 +7,7 @@
   <title>Amber Bikes</title>
   <link rel="stylesheet" href="style.css">
   <!-- <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
@@ -39,7 +40,8 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars"></i>
+
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ">
@@ -47,16 +49,18 @@
             <a class="nav-link active" aria-current="page" href="#home" >Home</a>
           </li>
           <li class="nav-item navbarrr">
-            <a class="nav-link" href="#product">Product Design</a>
+            <a class="nav-link" href="#get">Get Started</a>
           </li>
+          
           <li class="nav-item navbarrr">
+            <a class="nav-link" href="#product">Product</a>
+          </li>
+          <!-- <li class="nav-item navbarrr">
             <a class="nav-link navbarrr" href="#loc">Find Us</a>
-          </li>
+          </li> -->
+         
           <li class="nav-item navbarrr">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item navbarrr">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="#con">Contact Us</a>
           </li>
        
         </ul>
@@ -86,14 +90,14 @@
     
   </section>
     
-  <section class="sec sec-1 sec-first" >
+  <section class="sec sec-1 sec-first" id="get">
     
     <div class="slider">
       <div class="slide">
         
         <div class="wrap">
           <div class="img-slider">
-            <img src="images/slide1.png" alt="" srcset="" class="imagg">
+            <img src="images/slide1.png" alt="" srcset="" class="imagg" style="height: 30vw;width: 20vw;">
           </div>
           
           <h1>Lets</h1>
@@ -108,7 +112,7 @@
       <div class="slide">
         <div class="wrap">
           <div class="img-slider">
-            <img src="images/slide2.png" alt="" srcset="" class="imagg">
+            <img src="images/slide2.png" alt="" srcset="" class="imagg" style="height: 30vw;width: 20vw;">
           </div>
           <h1>Grab</h1>
           <h1>&nbsp; &nbsp; A</h1>
@@ -119,7 +123,7 @@
       <div class="slide">
         <div class="wrap">
           <div class="img-slider">
-            <img src="images/slide3.png" alt="" srcset="" class="imagg">
+            <img src="images/slide3.png" alt="" srcset="" class="imagg" style="height: 30vw;width: 20vw;">
           </div>
           <h1>Scan</h1>
           <h1>&nbsp; &nbsp; QR</h1>
@@ -130,7 +134,7 @@
       <div class="slide">
         <div class="wrap">
           <div class="img-slider">
-            <img src="images/slide4.png" alt="" srcset="" class="imagg">
+            <img src="images/slide4.png" alt="" srcset="" class="imagg" style="height: 30vw;width: 20vw;">
           </div>
           <h1>Ride</h1>
           <h1>&nbsp; &nbsp; Away</h1>
@@ -141,7 +145,7 @@
     <div class="slide">
       <div class="wrap">
         <div class="img-slider">
-          <img src="images/slide5.png" alt="" srcset="" class="imagg">
+          <img src="images/slide5.png" alt="" srcset="" class="imagg" style="height: 30vw;width: 20vw;">
         </div>
         <h1>Park</h1>
         <h1> the Bike</h1>
@@ -164,7 +168,7 @@
             <div class="col col-lg-12 col-md-3 col-sm-2 col-xs-2  des-con">
               <span class="">
               <div class="onhov">
-                  <img src="images/location.png" alt="" srcset="" class="design-img" align="left">
+                  <img src="images/rupee.png" alt="" srcset="" class="design-img" align="left">
                  <p class="des-text">
                   Rs 5 to Unlock <br>  Rs 1 per minute 
                 </p>
@@ -221,7 +225,7 @@
 
             <div class="des-con">
             <div class="onhov">
-                <img src="images/location.png" alt="" srcset="" class="design-img" align="left">
+                <img src="images/rupee.png" alt="" srcset="" class="design-img" align="left">
                
             </div>
            
@@ -279,7 +283,7 @@
 
 
 
-<section class="location" id="loc">
+<!-- <section class="location" id="loc">
   <img src="images/locate_ellipse.png" alt="" srcset="" class="loc-eli">
    <div class="row" style="margin-right: 0px;">
      <div class="col col-lg-6 col-md-6 col-sm-12" >
@@ -309,147 +313,188 @@
     </div>
    </div>
    
-</section>
+</section> -->
 
-<section class="contact "  style="overflow-x: hidden;">
+<section id="con">
+  <section class="contact "  style="overflow-x: hidden;" >
 
-  <div id="popup1" class="overlay">
-    <div class="popup">
-      <h2>CONTACT US</h2>
-      <a class="close" href="#contact">&times;</a>
-      <input type="text" class="input-box" placeholder="Name">
-      <input type="text" class="input-box" placeholder="Email">
-      <textarea class="input-box2" placeholder="Message"></textarea>
-      <br>
-      <img src="images/contact-bike.png" alt="" srcset="" class="contact-bike">
-      <div style="width: 50%; margin-left: 60px;">
-        <div class="g-recaptcha brochure__form__captcha" data-sitekey="YOUR SITE KEY" > </div>
-      </div>
-      <input type="submit" class="btn btn-dark sub" value="Submit" >
-    </div> 
-  </div>
-
-  <div class="row team-cont">
-    <div class="col col-lg-3 col-md-3  col-sm-12 team-text">
-      <h2>Meet the team</h2>
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <h2>CONTACT US</h2>
+        <a class="close" href="#contact">&times;</a>
+        <input type="text" class="input-box" placeholder="Name">
+        <input type="text" class="input-box" placeholder="Email">
+        <textarea class="input-box2" placeholder="Message"></textarea>
+        <br>
+        <img src="images/contact-bike.png" alt="" srcset="" class="contact-bike">
+        <!-- <div style="width: 50%; margin-left: 60px;">
+          <div class="g-recaptcha brochure__form__captcha" data-sitekey="YOUR SITE KEY" > </div>
+        </div> -->
+        <input type="submit" class="btn btn-dark sub" value="Submit" >
+      </div> 
     </div>
-    <div class="col col-lg-2 col-md-2 col-sm-12">
-      <div class="team-img">
-        <img src="images/team1.png" alt="" srcset="" class="img1">
-        <h4>Shivanshu Mahim</h4>
+  
+    <div class="row team-cont" >
+      <div class="col col-lg-2 col-md-3  col-sm-12 team-text">
+        <h2>Founding Team</h2>
       </div>
-      <div class="team-img">
-        <img src="images/team2.png" alt="" srcset="" class="img1">
-        <h4>Hriteek Aggrawal</h4>
+      <div class="col col-lg-3 col-md-2 col-sm-12 tee" style="margin-left: 15vw;">
+    
+          <div class="team-img">
+            <a href="https://www.linkedin.com/in/shivanshu-mahim-1ba3a51a6/">
+            <img src="images/team1.png" alt="" srcset="" class="img1">
+           </a>
+            <h4>Shivanshu Mahim</h4>
+            <h4>Co-founder</h4>
+          </div>
+        
+      
+        <div class="team-img wh mid">
+          <a href="https://www.linkedin.com/in/hriteek-agrawal-7069a8135">
+            <img src="images/team2.png" alt="" srcset="" class="img1">
+           </a>
+          <h4>Hriteek Aggrawal</h4>
+          <h4>Co-founder</h4>
+        </div>
+        <div class="team-img wh">
+          <a href="https://www.linkedin.com/in/bindavbakhale/">
+            <img src="images/team3.png" alt="" srcset="" class="img1">
+           </a>
+          <h4>Bindav Bakhale</h4>
+          <h4>Co-founder</h4>
+        </div>
+        
       </div>
-      <div class="team-img wh">
-        <img src="images/team3.png" alt="" srcset="" class="img1">
-        <h4>Bindav Bakhale</h4>
+      <!-- <div class="col col-lg-2  col-md-2 col-sm-12 secr" >
+        <div class="team-img">
+          <img src="images/team4.png" alt="" srcset="" class="img1">
+          <h4 style="padding-left: 20px;">Darsh Sheth</h4>
+        </div>
+        <div class="team-img wh">
+          <img src="images/team5.png" alt="" srcset="" class="img1">
+          <h4>Daksh Ganatra</h4>
+        </div>
+       
+        
+      </div> -->
+      <div class="col col-md-4 col-lg-3">
+       
+        <img src="images/team-vec.png" alt="" srcset="" class="team-vecc">
+        <div class="conc" style="display: flex; flex-direction: row;">
+          <a href="#popup1" class="btn btn-dark buttonn">Contact Us ></a>
+          <a href="https://www.instagram.com/moviomobility/"><h3 > <i class="fab fa-instagram"></i></h3></a>
+          <a href=""><h3 > <i class="fab fa-linkedin"></i></h3></a>
+          <a href="https://www.youtube.com/channel/UCcjkaB9raYLJpL4OA5lCdBw"><h3 > <i class="fab fa-youtube"></i></h3></a> 
+        </div>
       </div>
       
-    </div>
-    <!-- <div class="col col-lg-2  col-md-2 col-sm-12 secr" >
-      <div class="team-img">
-        <img src="images/team4.png" alt="" srcset="" class="img1">
-        <h4 style="padding-left: 20px;">Darsh Sheth</h4>
-      </div>
-      <div class="team-img wh">
-        <img src="images/team5.png" alt="" srcset="" class="img1">
-        <h4>Daksh Ganatra</h4>
-      </div>
-     
-      
-    </div> -->
-    <div class="col col-md-4 col-lg-4">
-      <img src="images/team-vec.png" alt="" srcset="" class="team-vec">
-      <a href="#popup1" class="btn btn-dark buttonn">Contact Us ></a>
     </div>
     
-  </div>
+   
+  <!-- <button class="btn btn-danger buttonn">
+    Contact Us
+  </button> -->
+  </section>
   
- 
-<!-- <button class="btn btn-danger buttonn">
-  Contact Us
-</button> -->
-</section>
-
-<section class="contact-ph "  style="overflow-x: hidden;">
-  <div id="popup2" class="overlay">
-    <div class="popup">
-      <h2>CONTACT US</h2>
-      <a class="close" href="#contact">&times;</a>
-      <input type="text" class="input-box" placeholder="Name">
-      <input type="text" class="input-box" placeholder="Email">
-      <textarea class="input-box2" placeholder="Message"></textarea>
-      <br>
-      <img src="images/contact-bike.png" alt="" srcset="" class="contact-bike">
-
-      <div style="transform:scale(0.60);
-      -webkit-transform:scale(0.60);
-      transform-origin:0 0;
-      -webkit-transform-origin:0 0;margin-left: 30px;">
-        <div class="g-recaptcha brochure__form__captcha" data-sitekey="YOUR SITE KEY" > </div>
-      </div>
-      <input type="submit" class="btn btn-dark sub" value="Submit" >
-     
-     
-
-    </div> 
-  </div>
-
-  <div class="row team-cont">
-    <div class="col col-sm-4 team-text">
-      <h2>Meet <br> the <br> team</h2>
-      
+  <section class="contact-ph "  style="overflow-x: hidden;">
+    <div id="popup2" class="overlay">
+      <div class="popup">
+        <h2>CONTACT US</h2>
+        <a class="close" href="#contact">&times;</a>
+        <input type="text" class="input-box" placeholder="Name">
+        <input type="text" class="input-box" placeholder="Email">
+        <textarea class="input-box2" placeholder="Message"></textarea>
+        <br>
+        <img src="images/contact-bike.png" alt="" srcset="" class="contact-bike">
+  
+        <!-- <div style="transform:scale(0.60);
+        -webkit-transform:scale(0.60);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;margin-left: 30px;">
+          <div class="g-recaptcha brochure__form__captcha" data-sitekey="YOUR SITE KEY" > </div> 
+        </div> -->
+        <input type="submit" class="btn btn-dark sub" value="Submit" >
+       
+       
+  
+      </div> 
     </div>
-    <div class="col col-sm-7">
-      <img src="images/team_eli.png" alt="" srcset=""  class="team-eli">
-    </div>
-  </div>
-   <div class="row">
-    <div class="col col-sm-8 team-left" style="overflow-x: visible;">
-      <div class="team-img">
-        <img src="images/team1.png" alt="" srcset="" class="img1" align="left">
-        <h4>Shivanshu Mahim</h4>
+  
+    <div class="row team-cont">
+      <div class="col col-sm-4 team-text">
+        <h2>Meet <br> the <br> team</h2>
+        
       </div>
-      <div class="team-img">
-        <img src="images/team2.png" alt="" srcset="" class="img1" align="left">
-        <h4>Hriteek Aggrawal</h4>
-      </div>
-      <div class="team-img ">
-        <img src="images/team3.png" alt="" srcset="" class="img1" align="left">
-        <h4>Bindav Bakhale</h4>
-      </div>
-      
-    </div>
-    <!-- <div class="col col-sm-4 secr" >
-      <div class="team-img mar">
-        <img src="images/team4.png" alt="" srcset="" class="img1" align="right">
-        <h4 >Darsh Sheth</h4>
-      </div>
-      <div class="team-img mar">
-        <img src="images/team5.png" alt="" srcset="" class="img1" align="right">
-        <h4>Daksh Ganatra</h4>
-      </div>
-     
-    </div> -->
-    </div>
-    <div class="row reach">
-      <div class="col col-sm-6 re">
-        <h2>Reach <br> Out To Us</h2>
-      </div>
-      <div class="col col-sm-6">
-        <img src="images/team-vec.png" alt="" srcset="" class="team-vec">
-        <a href="#popup2" class="btn btn-dark buttonn"><h6>Contact Us ></h6></a>
+      <div class="col col-sm-7">
+        <img src="images/team_eli.png" alt="" srcset=""  class="team-eli">
       </div>
     </div>
-
+     <div class="row">
+      <div class="col col-sm-8 team-left" style="overflow-x: visible;">
+        <div class="team-img">
+          <a href="https://www.linkedin.com/in/shivanshu-mahim-1ba3a51a6/">
+            <img src="images/team1.png" alt="" srcset="" class="img1" >
+          </a>
+          
+          <h4>Shivanshu Mahim<br> &nbsp; &nbsp; Co-founder</h4>
+  
+        </div>
+        <div class="team-img midd">
+          <a href="https://www.linkedin.com/in/hriteek-agrawal-7069a8135">
+            <img src="images/team2.png" alt="" srcset="" class="img1" >
+          </a>
+          <h4>Hriteek Aggrawal<br> &nbsp; &nbsp; Co-founder</h4>
     
-  </div>
+        </div>
+        <div class="team-img ">
+          <a href="https://www.linkedin.com/in/bindavbakhale/">
+            <img src="images/team3.png" alt="" srcset="" class="img1" >
+          </a>
+          <h4>Bindav Bakhale <br>&nbsp; &nbsp;  Co-founder</h4>
+          
+        </div>
+        
+      </div>
+      <!-- <div class="col col-sm-4 secr" >
+        <div class="team-img mar">
+          <img src="images/team4.png" alt="" srcset="" class="img1" align="right">
+          <h4 >Darsh Sheth</h4>
+        </div>
+        <div class="team-img mar">
+          <img src="images/team5.png" alt="" srcset="" class="img1" align="right">
+          <h4>Daksh Ganatra</h4>
+        </div>
+       
+      </div> -->
+      </div>
+      <div class="row reach">
+        <div class="col col-sm-6 re">
+          <h2>Reach <br> Out To Us</h2>
+        </div>
+        <div class="col col-sm-6">
+          
+          <img src="images/team-vec.png" alt="" srcset="" class="team-vec">
+          
+      </div>
+      <div class="row">
+        <div class="concc col-lg-12" style="display: flex; flex-direction: row;">
+          <a href="#popup2" class="btn btn-dark buttonne"><h6>Contact Us ></h6></a>
+          <a href="https://www.instagram.com/moviomobility/"><h3 > <i class="fab fa-instagram"></i></h3></a>
+          <a href=""><h3 > <i class="fab fa-linkedin"></i></h3></a>
+          <a href="https://www.youtube.com/channel/UCcjkaB9raYLJpL4OA5lCdBw"><h3 > <i class="fab fa-youtube"></i></h3></a> 
+        </div>
+   
+      </div>
+      </div>
   
- 
-
+      
+    </div>
+    
+   
+  
+  </section>
 </section>
+
 
 
 <section class="footer">
