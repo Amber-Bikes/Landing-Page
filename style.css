@@ -57,7 +57,7 @@ li a:hover{
     padding-top: 5vw;
     padding-left: 8vw;
     padding-right: 8rem;
-    padding-bottom: 13vw;
+    padding-bottom: 5vw;
     /* height: 100vh; */
     
 }
@@ -66,7 +66,7 @@ li a:hover{
     margin-top: -100px;
     padding-left: 6vw;
     padding-right: 10vw;
-    height: 40vw;
+    height: 30vw;
 }
 
 .header-text{
@@ -181,8 +181,26 @@ color: #000000;
 }
 
 .bike{
-    height: 40vw;
-    padding-left: 100px;
+    height: 20vw;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.bike1{
+    height: 20vw;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.bike2{
+    height: 15vw;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+#product{
+    height: 80vh;
+    margin-top: 150px;
 }
 
 .des-text{
@@ -191,7 +209,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 2vw;
 line-height: 2vw;
-width: 40vw;
+
 padding-left: 9vw;
 padding-top: 1.2vw;
 
@@ -245,31 +263,68 @@ padding-top: 1.2vw;
         display: block;
     }
 
-    .des-con{
-        padding-top: 0px;
-        padding-left: 0px;
+   .des-con{
+       padding-left: 80px;
+   }
+
+    .design-img{
+        height: 10vw;
+    }
+
+    .des-text {
+        margin-left: 40px;
+        font-size: 20px;
+        line-height: 3vw;
+    }
+    
+    .bikem{
+       margin-top: 50px;
+        height: 20vw;
+        
+    }
+   
+    .bikem1{
+        margin-top: 50px;   
+       height: 20vw;
+       
+   }
+   
+   .bikem2{
+    margin-top: 50px;
+       height: 20vw;
+       
+   }
+    
+  
+     
+    #product{
+        margin-top: 50px;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .bike-img{
+        margin-left:33%;
+        padding-top: 60px;
+        width: 100vw;
         
     }
 
-    .features{
+    .des-head-mob h2{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14vw;
+        
+        margin-top: 60px;
         margin-left: 30%;
-        overflow-x: hidden;
-       
-    }
-
-    .design-img{
-        padding-left: 20px;
-        height: 8vw;
+        
+        color: #000000;
      }
 
-     .bike{
-         margin-left:45%;
-         margin-top: 80px;
-         padding-left: 0px;
+     .contact{
+         height: 200vh;
      }
-     
-     
-    
 }
 
 @media (max-width: 575px)
@@ -285,7 +340,7 @@ padding-top: 1.2vw;
 
    .des-con{
        width: 100vw;
-       margin-left: 28%;
+       margin-left: 20%;
        padding-top: 0px;
        margin-top: 0px;
        z-index: 2;
@@ -298,30 +353,67 @@ padding-top: 1.2vw;
     height: 10vw;
  }
 
- .bike{
-     padding-left: 0px;
+ #product{
+     margin-top: 100px;
+     margin-bottom: 50px;
  }
+
+ .des-head-mob{
+     margin-top: 40px;
+     font-size: 10vw;
+ }
+
+ .bikem{
+     
+     height: 30vw;
+     
+ }
+
+ .bikem1{
+        
+    height: 30vw;
+    
+}
+
+.bikem2{
+    
+    height: 30vw;
+    
+}
  
  .bike-img{
-    margin-left:45%;
+    margin-left:33%;
     padding-top: 60px;
     width: 100vw;
     
 }
 
-.des-head-mob{
-    width: 100vw;
-    
+.design-img{
+    height: 15vw;
+    margin-left: -50px;
+}
+
+.des-text {
+    font-size: 5vw;
+    line-height: 5vw;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.des-con{
+    margin-top: 40px;
 }
 
 .des-head-mob h2{
     font-family: Roboto;
     font-style: normal;
-    font-weight: 900;
-    font-size: 7vw;
+    font-weight: 600;
+    font-size: 14vw;
     
-    margin-top: 30px;
-    margin-left: 38%;
+    margin-top: 60px;
+    margin-left: 30%;
+    
     color: #000000;
  }
    
@@ -360,11 +452,12 @@ padding-top: 1.2vw;
     padding: 0;
     border: none;
     border-radius: 100%;
-    background-color: orange;
+    background-color: grey;
     text-indent: -9999px;
   }
   .slick-dots li.slick-active button {
-    background-color: red;
+    background-color:#DC4908;
+    ;
   }
 
   .img-slider{

@@ -7,3 +7,9 @@ $('.slider').slick({
       fade: true,
       fadeSpeed: 1000
   });
+  
+  var myCarousel = document.querySelector('#myCarousel')
+  var carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 2000,
+    wrap: false
+  })
