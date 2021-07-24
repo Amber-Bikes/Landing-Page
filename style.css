@@ -169,7 +169,7 @@ li a:hover{
 
 .des-head h2{
     
-    padding-top: 120%;
+    padding-top: 150%;
     font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -220,7 +220,7 @@ padding-top: 1.2vw;
     font-size: 5vw;
     
     margin-top: 30px;
-    margin-left: 38%;
+    margin-left: 80%;
     color: #000000;
  }
 
@@ -311,7 +311,7 @@ padding-top: 1.2vw;
 
 .des-head-mob{
     width: 100vw;
-    margin-left: -30px;
+    
 }
 
 .des-head-mob h2{
@@ -550,6 +550,7 @@ padding-top: 1.2vw;
     background-color: #F9773D !important;
     border: none !important;
     height: 50px;
+  
     padding: 5px;
 }
 
