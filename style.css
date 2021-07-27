@@ -4,8 +4,8 @@
 
 .navbarr {
    
-    float: right;
-    margin: 10px;
+    text-align: right;
+    width: 100%;
     background-color: #FFFFFF;
 }
 
@@ -13,6 +13,12 @@
    
 padding-right: 20px;
     
+
+
+}
+
+.nav-mar {
+margin-left: auto;
 }
 
 @media(max-width:991px){
@@ -24,14 +30,14 @@ padding-right: 20px;
 }
 
 .upbig{
-    margin-top: 4vw;
+    margin-top: 0vw;
     height: 6vw;
 }
 
 .upsml{
     position: absolute;
     height: 3vw;
-    margin-top: 11vw;
+    margin-top: 4vw;
 }
 
 
@@ -322,9 +328,7 @@ padding-top: 1.2vw;
         color: #000000;
      }
 
-     .contact{
-         height: 200vh;
-     }
+  
 }
 
 @media (max-width: 575px)
@@ -571,7 +575,7 @@ padding-top: 1.2vw;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 2vw;
+    font-size: 1vw;
    
     
 }
@@ -581,7 +585,7 @@ padding-top: 1.2vw;
      margin-top: 10vw;
      background-image: url("images/bg2.png");
      background-size: cover;
-     height: 44vw;
+     height: auto;
  }
 
  .team-text{
@@ -635,7 +639,7 @@ padding-top: 1.2vw;
       }
 
       .foot{
-          font-size: 5vw;
+          font-size: 3vw;
       }
   }
 
@@ -682,7 +686,7 @@ padding-top: 1.2vw;
 
 
 .img1{
-    height: 10vw;
+    height: 12vw;
     margin-top: 5px;
 }
 
@@ -719,14 +723,14 @@ padding-top: 1.2vw;
 
 
 .overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
+    position: absolute;
+  
+    bottom: 5;
     left: 0;
     right: 0;
     
     
-  
+    z-index: 5;
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
