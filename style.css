@@ -173,18 +173,22 @@ li a:hover{
 .design{
     
     padding-top: 100px;
-    width: 90%;
+   
+}
+
+.des-head {
+    text-align: center
+    ;
 }
 
 .des-head h2{
     
-    padding-top: 150%;
+ 
     font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 6vw;
-margin-top: -100px;
-margin-left: -70px;
+
 
 color: #000000;
 }
@@ -254,6 +258,8 @@ padding-top: 1.2vw;
 @media(min-width: 779px){
     .pc{
         display: block;
+        overflow: hidden;
+    margin-left: 200px;
     }
 
     .mobile{
