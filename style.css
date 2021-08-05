@@ -65,7 +65,7 @@ li a:hover{
     padding-right: 8rem;
     padding-bottom: 5vw;
     /* height: 100vh; */
-    margin-top: 40px;
+  
     
 }
 
@@ -589,6 +589,7 @@ padding-top: 1.2vw;
  .contact{
      display: block;
      padding-top: 5vw;
+     
      background-image: url("images/bg2.png");
      background-size: cover;
      height: auto;
@@ -741,6 +742,7 @@ padding-top: 1.2vw;
 
 .contact-ph{
     display: none;
+    margin-top: 200px;
 }
 
 
