@@ -12,7 +12,7 @@
 .navbarrr {
    
 padding-right: 20px;
-    
+
 
 
 }
@@ -65,14 +65,15 @@ li a:hover{
     padding-right: 8rem;
     padding-bottom: 5vw;
     /* height: 100vh; */
+    margin-top: 40px;
     
 }
 
 .header-logo{
-    margin-top: -100px;
+    
     padding-left: 6vw;
     padding-right: 10vw;
-    height: 30vw;
+    height: 25vw;
 }
 
 .header-text{
@@ -139,8 +140,9 @@ li a:hover{
 
 
 .sec {
-    margin-top: 40px;
-    padding: 0vw 0 5vw 3vw;
+    margin-top: 80px;
+    
+    padding: 5vw 0 5vw 3vw;
     position: relative;
     color: #fff;
 }
@@ -169,7 +171,8 @@ li a:hover{
 }
 
 .design{
-    margin-top: 100px;
+    
+    padding-top: 100px;
     width: 90%;
 }
 
@@ -585,7 +588,7 @@ padding-top: 1.2vw;
 
  .contact{
      display: block;
-     margin-top: 10vw;
+     padding-top: 5vw;
      background-image: url("images/bg2.png");
      background-size: cover;
      height: auto;
@@ -705,7 +708,7 @@ padding-top: 1.2vw;
 
 
 .img1{
-    height: 12vw;
+    height: 10vw;
     margin-top: 5px;
 }
 
