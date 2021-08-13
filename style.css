@@ -613,8 +613,9 @@ padding-top: 1.2vw;
  }
 
  .teem {
-     padding-top: 60px;
+     padding-top: 10vh;
     padding-left: 100px !important;
+    padding-bottom: 5vh;
  }
 
  .team-text h2{
@@ -697,6 +698,7 @@ padding-top: 1.2vw;
 .conc{
     padding-top: 14vw;
     
+    
   
 }
 
@@ -731,6 +733,7 @@ padding-top: 1.2vw;
 .team-img{
     margin-right: 60px;
     margin-left: -40px;
+    
     
 }
 
@@ -1020,7 +1023,7 @@ font-size: 6vw;
 
 .botimg {
     height: 3.5vw;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .social{
