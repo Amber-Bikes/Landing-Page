@@ -350,19 +350,22 @@
   <section class="contact "  style="overflow-x: hidden;" >
 
     <div id="popup1" class="overlay">
-      <div class="popup">
-        <h2>CONTACT US</h2>
-        <a class="close" href="#contact">&times;</a>
-        <input type="text" class="input-box" placeholder="Name">
-        <input type="text" class="input-box" placeholder="Email">
-        <textarea class="input-box2" placeholder="Message"></textarea>
-        <br>
-        <img src="images/contact-bike.png" alt="" srcset="" class="contact-bike">
-        <!-- <div style="width: 50%; margin-left: 60px;">
-          <div class="g-recaptcha brochure__form__captcha" data-sitekey="YOUR SITE KEY" > </div>
-        </div> -->
-        <input type="submit" class="btn btn-dark sub" value="Submit" >
-      </div> 
+      <form id="myForm">
+        <div class="popup">
+          <h2>CONTACT US</h2>
+          <a class="close" href="#contact">&times;</a>
+          <input name="name" type="text" class="input-box" placeholder="Name">
+          <input name="email" type="text" class="input-box" placeholder="Email">
+          <textarea name="message" class="input-box2" placeholder="Message"></textarea>
+          <br>
+          <img src="images/contact-bike.png" alt="" srcset="" class="contact-bike">
+          <!-- <div style="width: 50%; margin-left: 60px;">
+            <div class="g-recaptcha brochure__form__captcha" data-sitekey="YOUR SITE KEY" > </div>
+          </div> -->
+          <button onclick="SubForm()" class="btn btn-dark buttt" >Submit</button>
+        </div> 
+      </form>
+      
     </div>
   
     <div class="row team-cont" >
@@ -450,9 +453,9 @@
       <div class="popup">
         <h2>CONTACT US</h2>
         <a class="close" href="#contact">&times;</a>
-        <input type="text" class="input-box" placeholder="Name">
-        <input type="text" class="input-box" placeholder="Email">
-        <textarea class="input-box2" placeholder="Message"></textarea>
+        <input type="text" name="name" class="input-box" placeholder="Name">
+        <input type="text" name="email" class="input-box" placeholder="Email">
+        <textarea class="input-box2" name="message" placeholder="Message"></textarea>
         <br>
         <img src="images/contact-bike.png" alt="" srcset="" class="contact-bike">
   
@@ -584,5 +587,24 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script><script  src="./index.js"></script>
 
 
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/16859/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
 </body>
 </html>
