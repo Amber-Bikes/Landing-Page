@@ -613,7 +613,7 @@ padding-top: 1.2vw;
  }
 
  .teem {
-     padding-top: 100px;
+     padding-top: 60px;
     padding-left: 100px !important;
  }
 
@@ -695,7 +695,7 @@ padding-top: 1.2vw;
 }
 
 .conc{
-    margin-top: 13vw;
+    padding-top: 14vw;
     
   
 }
@@ -724,13 +724,14 @@ padding-top: 1.2vw;
 
 .img1{
     height: 12vw;
-    margin-top: 5px;
+   
    
 }
 
 .team-img{
     margin-right: 60px;
-    margin-left: -20px;
+    margin-left: -40px;
+    
 }
 
 .team-img h4{
@@ -918,11 +919,6 @@ padding-top: 1.2vw;
         height: 25vw;
     }
 
-    .team-img{
-        padding-top: 20px;
-        
-
-    }
 
     .team-img h4{
         overflow-y: visible;
