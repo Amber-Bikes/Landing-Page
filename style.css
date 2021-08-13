@@ -1005,6 +1005,16 @@ font-size: 6vw;
         font-size: 3vw;
         
     }
+
+    .team-img{
+        margin-right: 60px;
+        margin-left: 40%;
+        
+    }
+
+    .midd{
+        margin-left: 10%;
+    }
 }
 
 
