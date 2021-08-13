@@ -50,6 +50,7 @@ margin-left: auto;
 li a{
     color: black !important;
     font-weight: 600;
+    font-size: 25px;
 }
 
 li a:hover{
@@ -60,10 +61,10 @@ li a:hover{
 
 
 .header {
-    padding-top: 5vw;
+    
     padding-left: 8vw;
     padding-right: 8rem;
-    padding-bottom: 5vw;
+    padding-bottom: 9vw;
     /* height: 100vh; */
   
     
@@ -186,7 +187,7 @@ li a:hover{
  
     font-family: Roboto;
 font-style: normal;
-font-weight: bold;
+font-weight: 390;
 font-size: 6vw;
 
 
@@ -202,13 +203,13 @@ color: #000000;
 .bike1{
     height: 20vw;
     margin-top: 120px;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 .bike2{
     height: 15vw;
     margin-top: 150px;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 #product{
@@ -230,18 +231,21 @@ padding-top: 1.2vw;
 }
 
 .design-img{
-   padding-left: 20px;
+   padding-left: 10px;
    height: 6vw;
 }
 
 .des-con{
-    padding-bottom: 3vh;
-    padding-left: 100px;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+    
 }
 
 .mobile{
     display: none ;
     margin-top: 60px;
+    
+    
 }
 
 .des-head-mob h2{
@@ -252,6 +256,7 @@ padding-top: 1.2vw;
     
     margin-top: 30px;
     margin-left: 80%;
+    
     color: #000000;
  }
 
@@ -582,12 +587,12 @@ padding-top: 1.2vw;
 
   .foot{
     text-align: center;
-    background-color: #1A1A1A;
-    color: white;
+    background-color: #0f1c47;
+    color: rgb(156, 150, 150);
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1vw;
+    font-size: 0.6vw;
    
     
 }
@@ -596,24 +601,27 @@ padding-top: 1.2vw;
      display: block;
      padding-top: 5vw;
      
-     background-image: url("images/bg2.png");
+     background-image: url("images/bg.png");
      background-size: cover;
      height: auto;
  }
 
  .team-text{
-     margin-left: 2vw;
+     text-align: center;
+    
+   
  }
 
- .tee{
-     padding-left: 150px;
+ .teem {
+     padding-top: 100px;
+    padding-left: 100px !important;
  }
 
  .team-text h2{
-    font-family: Roboto;
+    font-family: sans-serif;
     font-style: normal;
-    font-weight: bold;
-    font-size: 6vw;
+    font-weight: 548;
+    font-size: 4vw;
     
     
     color: #000000;
@@ -672,37 +680,37 @@ padding-top: 1.2vw;
   }
 
 .buttonne{
-    background-color: #F9773D !important;
+    background-color: #DC4908 !important;
     border: none !important;
     
-  height: 40px;
+    height: 30px;
     padding: 5px;
     margin-bottom: 10px;
 }
 
 .buttonn{
-    background-color: #F9773D !important;
+    background-color: #DC4908 !important;
     border: none !important;
     height: 40px;
 }
 
 .conc{
     margin-top: 13vw;
-    margin-left: 4vw;
+    
   
 }
 
 .conc h3 {
-    font-size: 50px;
+    font-size: 25px;
     color: white;
-    margin-left: 20px;
+    padding-right: 20px;
     margin-top: -10px;
 }
 
 .concc{
     padding-top: 13vw;
     margin-left: 4vw;
-  
+   
 }
 
 .concc h3 {
@@ -715,8 +723,14 @@ padding-top: 1.2vw;
 
 
 .img1{
-    height: 10vw;
+    height: 12vw;
     margin-top: 5px;
+   
+}
+
+.team-img{
+    margin-right: 60px;
+    margin-left: -20px;
 }
 
 .team-img h4{
@@ -726,7 +740,18 @@ padding-top: 1.2vw;
     color: #000000;
 }
 
+.team-img h6{
+    padding-left: 12px;
+    font-size: 1vw;
+    text-decoration: none !important;
+    color: #000000;
+}
+
 .wh h4{
+    color: white;
+}
+
+.wh h6{
     color: white;
 }
 
@@ -735,9 +760,11 @@ padding-top: 1.2vw;
 }
 
 .team-vecc{
-    height: 25vw;
-    padding-top: 100px;
-    padding-left: 50px;
+    height: 10vw;
+    width: 10vw !important;
+   margin-left: 85%;
+   margin-top: -250px;
+
 }
 
 .team-vec{
@@ -857,6 +884,8 @@ padding-top: 1.2vw;
     margin-left: 40vw;
 }
 
+
+
   
 @media(max-width: 1174px){
     .contact{
@@ -865,10 +894,11 @@ padding-top: 1.2vw;
 
     .contact-ph{
         display: block;
+        
     }
 
     .team-text h2{
-        margin-top: 50px;
+        margin-top: 300px;
         font-size: 12vw;
         margin-left: 12vw;
     }
@@ -890,6 +920,8 @@ padding-top: 1.2vw;
 
     .team-img{
         padding-top: 20px;
+        
+
     }
 
     .team-img h4{
@@ -980,4 +1012,22 @@ font-size: 6vw;
 }
 
 
+.botimg {
+    height: 3.5vw;
+    margin-top: 100px;
+}
 
+.social{
+    margin-top: 30px;
+       
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+}
+
+@media(min-width:1175px) and (max-width:1270px){
+    .botimg{
+        margin-top: 10vw;
+    }
+}
