@@ -619,13 +619,14 @@ padding-top: 1.2vw;
  }
 
  .team-text h2{
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 548;
-    font-size: 4vw;
     
-    
-    color: #000000;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 390;
+font-size: 6vw;
+
+
+color: #000000;
  }
 
 
@@ -902,6 +903,7 @@ padding-top: 1.2vw;
     }
 
     .team-text h2{
+        
         margin-top: 300px;
         font-size: 6vw;
         font-weight: 390;
