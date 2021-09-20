@@ -195,21 +195,21 @@ color: #000000;
 }
 
 .bike{
-    height: 20vw;
-    margin-top: 120px;
-    margin-left: 100px;
+    height: 24vw;
+    margin-top: 50px;
+    margin-left: 10px;
 }
 
 .bike1{
-    height: 20vw;
-    margin-top: 120px;
-    margin-left: 130px;
+    height: 25vw;
+    margin-top: 70px;
+    margin-left: 10px;
 }
 
 .bike2{
-    height: 15vw;
-    margin-top: 150px;
-    margin-left: 130px;
+    height: 24vw;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 #product{
@@ -301,19 +301,20 @@ padding-top: 1.2vw;
     
     .bikem{
        margin-top: 50px;
-        height: 20vw;
+        height: 25vw;
+        
         
     }
    
     .bikem1{
         margin-top: 50px;   
-       height: 20vw;
+       height: 25vw;
        
    }
    
    .bikem2{
     margin-top: 50px;
-       height: 20vw;
+       height: 25vw;
        
    }
     
