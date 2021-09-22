@@ -1049,3 +1049,16 @@ font-size: 6vw;
     margin-top: 5px;
     margin-left: 60px;
 }
+
+.he-im {
+    height: 20vw;
+    margin-top: 20px;
+}
+
+@media (max-width:998px) {
+    .he-im {
+        height: 40vw;
+        margin-top: 50px;
+        margin-left: 17vw;
+    }
+}
